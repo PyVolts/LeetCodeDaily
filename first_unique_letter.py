@@ -1,4 +1,4 @@
-def firstUniqChar(self, s):
+def firstUniqChar(s):
         counts = collections.Counter(s)
         
         unique = [letter for letter, occurence in counts.items() if occurence == 1]
